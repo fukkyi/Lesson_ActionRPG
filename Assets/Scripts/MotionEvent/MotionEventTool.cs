@@ -6,15 +6,14 @@ public class MotionEventTool : MonoBehaviour
 {
     [SerializeField]
     private Animator targetActorAnimator = null;
-
     [SerializeField]
     private MotionListItem listItemTemplate = null;
-
     [SerializeField]
     private Transform motionListParent = null;
-
     [SerializeField]
     private MotionClipSamplingPanel samplingPanel = null;
+    [SerializeField]
+    private MotionEventPanel eventPanel = null;
 
     private GameObject samplingActor = null;
 
@@ -44,17 +43,19 @@ public class MotionEventTool : MonoBehaviour
             MotionListItem mli = newListItem.GetComponent<MotionListItem>();
             string clipName = motionClip.name;
 
-            if (clipName.Equals("idle"))
+            if (clipName.Equals("Idle"))
             {
                 currentClip = motionClip;
                 PlaySamplingAnim(0f);
                 samplingPanel.SetSamplingClip(currentClip);
+                eventPanel.Setup(motionClip);
             }
 
             mli.Setup(clipName, () => {
                 currentClip = motionClip;
                 PlaySamplingAnim(0f);
                 samplingPanel.SetSamplingClip(currentClip);
+                eventPanel.Setup(motionClip);
             });
         }
 
