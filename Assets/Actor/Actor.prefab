@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 8121650944553865094}
   m_Layer: 0
   m_Name: Ch18
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 1130929200129249758}
   m_Layer: 0
   m_Name: Actor
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
