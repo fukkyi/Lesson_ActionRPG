@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 080096e5802106a4781a534abc599b5f
+  m_SerializeEntries:
+  - m_GUID: 5c986604936e89c4a95b4e43e23e7992
+    m_Address: Assets/App/Addressables/Prefabs/Managers/AppManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7beb567f5095cbd4e86cd8c18d7c2070
+    m_Address: Assets/App/Prefabs/PoolObject/SoundObject.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 03c2ba99b451be14bbae9d00d7f1058a
+    m_Address: Assets/App/Addressables/Prefabs/Managers/AudioManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c69fd72680bbf3d46a9af6d229c0224d
+    m_Address: Assets/App/Addressables/Prefabs/Managers/SceneTransitionManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b9ad877096738c146b015fd15a49c533
+    m_Address: Assets/App/Addressables/Prefabs/Managers/EffectManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5deee14e19c67b74eac86335b1c7887b
+    m_Address: Assets/App/Addressables/Prefabs/Manager/DebugManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b7634c0f3dbf50a40acb71f1c31570a0
+    m_Address: Assets/App/Addressables/Prefabs/Manager/SceneControllerManager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6b6e0efc8f309d94795540cd9bc35891, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8232b2ab749ca03419c06efc56bcd136, type: 2}
+    - {fileID: 11400000, guid: 286f6286360640148acee8e77651b763, type: 2}
